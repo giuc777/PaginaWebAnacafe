@@ -295,3 +295,136 @@ footer h1{
     font-size: 20px;
     font-weight: 100;
 }
+
+/* Añadir al final del archivo servicios.css */
+
+/* Estilos base para móviles (ya están en el CSS existente) */
+
+/* Media Queries para responsividad */
+@media (max-width: 1200px) {
+  .prin {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 992px) {
+  .barra-superior {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 20px;
+  }
+  
+  nav {
+    padding-left: 0;
+    margin-top: 15px;
+    width: 100%;
+  }
+  
+  nav ul {
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  nav li a {
+    min-width: auto;
+    padding: 9.5px 8px;
+    font-size: 14px;
+  }
+  
+  .textEnca {
+    margin-top: 10%;
+    margin-left: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .textEnca h1 {
+    font-size: 40px;
+  }
+  
+  .campo {
+    flex-direction: column;
+  }
+  
+  .campo img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .cont {
+    width: 100%;
+  }
+  
+  .contactos {
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .contacLogo, .info, .redesSoc, .mapa {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 200px;
+  }
+  
+  .logo img {
+    height: 80px;
+  }
+  
+  .logo h1 {
+    font-size: 28px;
+  }
+  
+  .logo h2 {
+    font-size: 16px;
+  }
+  
+  .textEnca h1 {
+    font-size: 30px;
+  }
+  
+  #dos, #tres, #cuatro {
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .logo img {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  
+  nav ul {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  
+  nav li {
+    margin-bottom: 5px;
+  }
+  
+  .textEnca {
+    margin-top: 15%;
+    margin-left: 2%;
+  }
+  
+  .textEnca h1 {
+    font-size: 24px;
+  }
+  
+  .prin {
+    margin-top: 40px;
+  }
+}

@@ -641,3 +641,204 @@ footer h1{
   visibility: visible;
   opacity: 1;
 }
+
+/* Añadir al final del archivo index.css */
+
+/* Estilos base para móviles (ya están en el CSS existente) */
+
+/* Media Queries para responsividad */
+@media (max-width: 1200px) {
+  .queHace {
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .iniciativas {
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .contactenos {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .difuminado {
+    width: 100%;
+    margin-right: 0;
+  }
+  
+  .contacDer {
+    margin-left: 20px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .barra-superior {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 20px;
+  }
+  
+  nav {
+    padding-left: 0;
+    margin-top: 15px;
+    width: 100%;
+  }
+  
+  nav ul {
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  nav li a {
+    min-width: auto;
+    padding: 9.5px 8px;
+    font-size: 14px;
+  }
+  
+  .textEnca {
+    margin-top: 30%;
+    margin-left: 5%;
+  }
+  
+  .acceso-sistema {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .queHace {
+    flex-direction: column;
+  }
+  
+  .lado-izquierdo, .lado-derecho {
+    width: 100%;
+  }
+  
+  .logoZ {
+    width: 70%;
+    margin-left: 15%;
+  }
+  
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card {
+    width: 80%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  
+  .contactos {
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .contacLogo, .info, .redesSoc, .mapa {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 600px;
+  }
+  
+  .logo img {
+    height: 80px;
+  }
+  
+  .logo h1 {
+    font-size: 28px;
+  }
+  
+  .logo h2 {
+    font-size: 16px;
+  }
+  
+  .textEnca h1 {
+    font-size: 30px;
+  }
+  
+  .textEnca h2 {
+    font-size: 20px;
+  }
+  
+  .acceso-sistema {
+    font-size: 18px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .prins {
+    display: none;
+  }
+  
+  .prins2 {
+    position: relative;
+    width: 100%;
+    margin-left: 0;
+    border-radius: 0;
+    padding: 20px;
+  }
+  
+  .img2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .img2 .card {
+    width: 80%;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    height: 500px;
+  }
+  
+  .logo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .logo img {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  
+  nav ul {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  
+  nav li {
+    margin-bottom: 5px;
+  }
+  
+  .textEnca {
+    margin-top: 40%;
+  }
+  
+  .textEnca h1 {
+    font-size: 24px;
+  }
+  
+  .textEnca h2 {
+    font-size: 16px;
+  }
+  
+  .contacDer h1 {
+    font-size: 30px;
+  }
+  
+  .contacDer p {
+    font-size: 16px;
+  }
+}

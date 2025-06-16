@@ -301,3 +301,148 @@ footer h1{
     font-size: 20px;
     font-weight: 100;
 }
+
+/* Añadir al final del archivo contac.css */
+
+/* Estilos base para móviles (ya están en el CSS existente) */
+
+/* Media Queries para responsividad */
+@media (max-width: 1200px) {
+  .prin {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  
+  .barra-inferior {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5%;
+    width: 90%;
+  }
+  
+  .barra-inferior #b {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .barra-inferior form {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .barra-superior {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 20px;
+  }
+  
+  nav {
+    padding-left: 0;
+    margin-top: 15px;
+    width: 100%;
+  }
+  
+  nav ul {
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  nav li a {
+    min-width: auto;
+    padding: 9.5px 8px;
+    font-size: 14px;
+  }
+  
+  .barra-inferior h1 {
+    font-size: 32px;
+  }
+  
+  .barra-inferior h2 {
+    font-size: 20px;
+  }
+  
+  .contactos {
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .contacLogo, .info, .redesSoc, .mapa {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .prin {
+    height: auto;
+  }
+  
+  .logo img {
+    height: 80px;
+  }
+  
+  .logo h1 {
+    font-size: 28px;
+  }
+  
+  .logo h2 {
+    font-size: 16px;
+  }
+  
+  .barra-inferior h1 {
+    font-size: 28px;
+  }
+  
+  .barra-inferior h2 {
+    font-size: 18px;
+  }
+  
+  .barra-inferior form {
+    font-size: 16px;
+    padding: 25px 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .logo img {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  
+  nav ul {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  
+  nav li {
+    margin-bottom: 5px;
+  }
+  
+  .barra-inferior {
+    padding: 0 20px;
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .barra-inferior h1 {
+    font-size: 24px;
+  }
+  
+  .barra-inferior h2 {
+    font-size: 16px;
+  }
+  
+  .barra-inferior input,
+  .barra-inferior textarea,
+  .barra-inferior button {
+    font-size: 14px;
+  }
+}
